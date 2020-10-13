@@ -7,8 +7,6 @@ import { PagesComponent } from './pages.component';
 import { SharedModule } from '../shared/shared.module';
 import { RouterModule } from '@angular/router';
 
-
-
 @NgModule({
   declarations: [
     DashboardComponent,
