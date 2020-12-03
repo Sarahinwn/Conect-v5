@@ -12,7 +12,7 @@ const routes: Routes = [
 @NgModule({
   declarations: [],
   imports: [
-    RouterModule.forRoot(routes), PagesRoutingModule, AuthRoutingModule
+    RouterModule.forRoot(routes, { relativeLinkResolution: 'legacy' }), PagesRoutingModule, AuthRoutingModule
   ],
   exports: [
     RouterModule
