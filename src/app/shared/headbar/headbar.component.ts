@@ -12,5 +12,8 @@ export class HeadbarComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  borrarToken() {
+    localStorage.removeItem('token');
+  }
 
 }

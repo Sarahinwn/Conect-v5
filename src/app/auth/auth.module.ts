@@ -5,12 +5,14 @@ import { RegisterComponent } from './register/register.component';
 import { RouterModule } from '@angular/router';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { UpdatepassComponent } from './updatepass/updatepass.component';
 
 
 @NgModule({
   declarations: [
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    UpdatepassComponent,
   ],
   exports: [
     LoginComponent,

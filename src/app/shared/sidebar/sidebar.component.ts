@@ -18,4 +18,8 @@ export class SidebarComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  borrarToken() {
+    localStorage.removeItem('token');
+  }
+
 }
